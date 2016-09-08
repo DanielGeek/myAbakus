@@ -1,0 +1,26 @@
+
+
+h1
+{
+    text-align: center;
+}
+
+
+h2
+{
+    color: #B94A48;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.last
+{
+    border-bottom: none;
+}
+
+article
+{
+    border-bottom: 1px solid #CCC;
+    padding-top: 20px;
+}
+

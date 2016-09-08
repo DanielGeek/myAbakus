@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title></title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/videos2.css" rel="stylesheet" type="text/css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Videos</h1>
+                    <H3>Watch the video tutorials</H3>
+                </div>
+            </div>
+            <div class="row sheets">
+                <div class="col-md-12 js-masonry" data-masonry-options='{ "itemSelector": ".sheet" }'>
+                    <div class="sheet">
+                        <h2>Double-click on top or bottom to scroll long pages</h2>
+                        <img src="images/video.png" width="100%" data-toggle="modal" data-target="#videoModal1">
+                        <p>You can <em><code>double-click</code></em> on the bottom corner of either side of Basecamp to quickly scroll to the bottom of the page.  <em><code>Double-click</code></em> the top to bring you back up!</p>
+                    </div>
+                    <div class="sheet">
+                        <h2>Jump to a person from search</h2>
+                        <img src="images/video.png" width="100%" data-toggle="modal" data-target="#videoModal2">
+                        <p>Type <code>G</code> + <code>F</code> to instantly get to the <strong>search bar</strong> from anywhere!</p>
+                    </div>
+                    <div class="sheet">
+                        <h2>Navigate with keyboard shortcuts G + 1 through 6</h2>
+                        <div class="test">
+                            <a href="http://" data-target="#videoModal1" data-toggle="modal">
+                                <div class="sheet3img sheet-img">
+                                    <span class="glyphicon glyphicon-play play-btn"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <p>Type simple keyboard shortcuts to navigate quickly around Basecamp!</p>
+                        <p><code>G</code> + <code>1</code> goes to <strong>Projects</strong><br /><code>G</code> + <code>2</code> goes to <strong>Calendar</strong><br /><code>G</code> + <code>3</code> goes to <strong>Everything</strong><br /><code>G</code> + <code>4</code> goes to <strong>Timeline</strong><br /><code>G</code> + <code>5</code> goes to <strong>Everyone</strong><br /><code>G</code> + <code>6</code> goes to <strong>Me</strong></p>
+                    </div>
+                    <div class="sheet">
+                        <h2>Navigate with keyboard shortcuts G + 1 through 6</h2>
+                        <img src="images/video.png" width="100%">
+                        <p>Type simple keyboard shortcuts to navigate quickly around Basecamp!</p>
+                        <p><code>G</code> + <code>1</code> goes to <strong>Projects</strong><br /><code>G</code> + <code>2</code> goes to <strong>Calendar</strong><br /><code>G</code> + <code>3</code> goes to <strong>Everything</strong><br /><code>G</code> + <code>4</code> goes to <strong>Timeline</strong><br /><code>G</code> + <code>5</code> goes to <strong>Everyone</strong><br /><code>G</code> + <code>6</code> goes to <strong>Me</strong></p>
+                    </div>
+                    <div class="sheet">
+                        <h2>Jump to a person from search</h2>
+                        <img src="images/video.png" width="100%">
+                        <p>Type <code>G</code> + <code>F</code> to instantly get to the <strong>search bar</strong> from anywhere!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="videoModal1" tabindex="-1" role="dialog" aria-hidden="true" data-keyboard="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/D4tdBTSPq8s?rel=0&amp;html5=1" frameborder="0" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="videoModal2" tabindex="-1" role="dialog" aria-hidden="true" data-keyboard="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/D4tdBTSPq8s?rel=0&amp;html5=1" frameborder="0" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/jquery.min.js"></script>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+        <script>
+    $("#videoModal1").on('hidden.bs.modal', function (e) { $("#videoModal1 iframe").attr("src", $("#videoModal1 iframe").attr("src"));
+});
+    $("#videoModal2").on('hidden.bs.modal', function (e) { $("#videoModal2 iframe").attr("src", $("#videoModal2 iframe").attr("src"));
+});
+    </script>
