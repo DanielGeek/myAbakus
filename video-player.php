@@ -5,8 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
-        <link rel="shortcut icon" href="../fav-icon.png">
-        <meta name="author" content="">
+        <link rel="shortcut icon" href="../web/images/favicon.png">
         <title>Video Player</title>
         <!-- Bootstrap core CSS -->
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -17,14 +16,15 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
         <link href="css/player.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="../web/js/km.js"></script>
     </head>
     <body>
         <div class="container">
             <div class="row">
                 <div>
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?= $_GET['id']; ?>?autoplay=1&rel=0"></iframe>                         
-                    </div>                     
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<?= $_GET['id']; ?>?autoplay=1&rel=0"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
