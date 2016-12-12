@@ -16,8 +16,6 @@ h2
     color: #B94A48;
     font-size: 1.5em;
     font-family: 'Cabin', Georgia, sans-serif;
-    margin-top: 0px;
-    margin-bottom: 0px;
     font-weight: 500;
     margin: 20px 0 5px;
 }
@@ -29,7 +27,7 @@ h3
     font-size: 1.2em;
     font-family: 'Quattrocento Sans', Arial, sans-serif;
     font-weight: normal;
-    margin: 0 auto 30px;
+    margin: 0 -15px 30px;
     padding-bottom: 20px;
     text-align: center;
 }
@@ -46,7 +44,7 @@ h3
     zoom: 1;
     background-color: white;
     padding: 15px;
-    
+
     margin-bottom: 15px;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -63,14 +61,6 @@ h3
     max-width: 990px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.container-fluid
-{
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
 }
 
 .sheet-img
