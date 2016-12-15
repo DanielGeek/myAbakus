@@ -11,6 +11,7 @@
         <link href="css/faqs.css" rel="stylesheet" type="text/css">
         <link href='https://fonts.googleapis.com/css?family=Cabin:600|Quattrocento+Sans' rel='stylesheet' type='text/css'>
         <script type="text/javascript" src="../web/js/km.js"></script>
+        <script type="text/javascript" src="/js/drift-es.js"></script>
     </head>
     <body>
         <section>
@@ -81,32 +82,5 @@
                 <p>No se le harán más cargos a su tarjeta y cuando su suscripción expire, no podrá ingresar más transacciones. Pero mantendrá acceso a su cuenta y a toda la información que haya ingresado. No vamos a borrar su cuenta ni sus datos a menos que nos de instrucciones de hacerlo cancelando su cuenta.</p>
             </article>
         </section>
-        <!-- Start of Async Drift Code -->
-        <script>
-        !function() {
-          var t;
-          if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
-          t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
-          t.factory = function(e) {
-            return function() {
-              var n;
-              return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-            };
-          }, t.methods.forEach(function(e) {
-            t[e] = t.factory(e);
-          }), t.load = function(t) {
-            var e, n, o, i;
-            e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
-            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
-            n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-          });
-        }();
-        drift.SNIPPET_VERSION = '0.3.1';
-        drift.config({
-          locale: "es"
-        });
-        drift.load('33c7h6tzniik');
-        </script>
-        <!-- End of Async Drift Code -->
     </body>
 </html>

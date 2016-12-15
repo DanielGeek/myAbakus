@@ -16,6 +16,7 @@
         <link href='https://fonts.googleapis.com/css?family=Cabin:600|Quattrocento+Sans' rel='stylesheet' type='text/css'>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
         <script type="text/javascript" src="../web/js/km.js"></script>
+        <script type="text/javascript" src="/js/drift-en.js"></script>
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -185,28 +186,4 @@
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-        <!-- Start of Async Drift Code -->
-        <script>
-        !function() {
-          var t;
-          if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
-          t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
-          t.factory = function(e) {
-            return function() {
-              var n;
-              return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-            };
-          }, t.methods.forEach(function(e) {
-            t[e] = t.factory(e);
-          }), t.load = function(t) {
-            var e, n, o, i;
-            e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
-            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
-            n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-          });
-        }();
-        drift.SNIPPET_VERSION = '0.3.1';
-        drift.load('33c7h6tzniik');
-        </script>
-        <!-- End of Async Drift Code -->
     </body>
