@@ -26,7 +26,8 @@ h1, h2
 
 h1
 {
-    font-size: 2em;
+    color:aliceblue;
+    font-size: 4em;
 }
 
 h2
@@ -34,6 +35,10 @@ h2
     color: #B94A48;
     font-size: 1.5em;
     font-weight: 500;
+}
+
+h3{
+    color:black;
 }
 
 p
@@ -51,8 +56,37 @@ p
     box-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 5px;
     padding-top: 3%;
     height: auto;
-    min-height: 100%;
+    min-height: 10%;
     padding-bottom: 3%;
+}
+#row
+{
+    background-color:background: rgba(17,84,146,1);
+    background: -moz-linear-gradient(left, rgba(17,84,146,1) 0%, rgba(17,84,146,1) 17%, rgba(15,68,128,1) 49%, rgba(31,121,223,1) 97%, rgba(32,124,229,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(17,84,146,1)), color-stop(17%, rgba(17,84,146,1)), color-stop(49%, rgba(15,68,128,1)), color-stop(97%, rgba(31,121,223,1)), color-stop(100%, rgba(32,124,229,1)));
+    background: -webkit-linear-gradient(left, rgba(17,84,146,1) 0%, rgba(17,84,146,1) 17%, rgba(15,68,128,1) 49%, rgba(31,121,223,1) 97%, rgba(32,124,229,1) 100%);
+    background: -o-linear-gradient(left, rgba(17,84,146,1) 0%, rgba(17,84,146,1) 17%, rgba(15,68,128,1) 49%, rgba(31,121,223,1) 97%, rgba(32,124,229,1) 100%);
+    background: -ms-linear-gradient(left, rgba(17,84,146,1) 0%, rgba(17,84,146,1) 17%, rgba(15,68,128,1) 49%, rgba(31,121,223,1) 97%, rgba(32,124,229,1) 100%);
+    background: linear-gradient(to right, rgba(17,84,146,1) 0%, rgba(17,84,146,1) 17%, rgba(15,68,128,1) 49%, rgba(31,121,223,1) 97%, rgba(32,124,229,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#115492', endColorstr='#207ce5', GradientType=1 );;
+    max-width: 800px;
+    margin: 3% auto;
+    box-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 5px;
+    padding-top: 3%;
+    height: auto;
+    min-height: 10%;
+    padding-bottom: 3%;
+}
+div.page3
+{
+    background-color: #ffffff;
+    max-width:800px;
+    margin: 3% auto;
+    box-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 5px;
+    padding-top: 3%;
+    height: auto;
+    min-height: 10%;
+    padding-bottom: 1%;
 }
 
 .lesson
@@ -63,7 +97,7 @@ p
 
 .img-wrap
 {
-    width: 90%;
+    width: 23%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -72,7 +106,7 @@ p
 {
     background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.509804) 0%, rgba(0, 0, 0, 0.490196) 100%) , url('../images/dashboard.png');
     background-position: 0% 0%;
-    height: 350px;
+    height: 90px;
     background-size: 300%;
     background-repeat: no-repeat;
     position: relative;
@@ -93,10 +127,10 @@ p
     border-radius: 25px;
     color: #71b356;
     background-color: #ffffff;
-    top: 45%;
+    top: 25%;
     font-size: 40px;
     border: none;
-    left: 45%;
+    left: 30%;
     text-align: center;
     line-height: 1.2;
     padding-left: 4px;
