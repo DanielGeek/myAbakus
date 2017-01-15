@@ -54,4 +54,76 @@ $(document).ready(function(){
                 $("#videoModal6 iframe").attr("src", 'https://www.youtube.com/embed/dziMNOGtabA?autoplay=0&rel=0&showinfo=0');
             });
     
+            //7mo video
+            $("#videoModal7").on('show.bs.modal', function (e) {
+                $("#videoModal7 iframe").attr("src", 'https://www.youtube.com/embed/IVGATE-wngQ?autoplay=1&rel=0&showinfo=0');
+            });
+            
+            $("#videoModal7").on('hidden.bs.modal', function (e) {
+                $("#videoModal7 iframe").attr("src", 'https://www.youtube.com/embed/IVGATE-wngQ?autoplay=0&rel=0&showinfo=0');
+            });
+    
+            //8vo video
+            $("#videoModal8").on('show.bs.modal', function (e) {
+                $("#videoModal8 iframe").attr("src", 'https://www.youtube.com/embed/7c0z7d4deKs?autoplay=1&rel=0&showinfo=0');
+            });
+            
+            $("#videoModal8").on('hidden.bs.modal', function (e) {
+                $("#videoModal8 iframe").attr("src", 'https://www.youtube.com/embed/7c0z7d4deKs?autoplay=0&rel=0&showinfo=0');
+            });
+    
+            //9no video
+            $("#videoModal9").on('show.bs.modal', function (e) {
+                $("#videoModal9 iframe").attr("src", 'https://www.youtube.com/embed/CWwwtMMq-Jk?autoplay=1&rel=0&showinfo=0');
+            });
+    
+            $("#videoModal9").on('hidden.bs.modal', function(e) {
+                $("#videoModal9 iframe").attr("src", 'https://www.youtube.com/embed/CWwwtMMq-Jk?autoplay=0&rel=0&showinfo=0');
+            });
+    
+            //10mo video
+            $("#videoModal10").on('show.bs.modal', function (e) {
+                $("#videoModal10 iframe").attr("src", 'https://www.youtube.com/embed/NyjQTmsx3oI?autoplay=1&rel=0&showinfo=0');
+            });
+            
+            $("#videoModal10").on("hidden.bs.modal", function(e) {
+                $("#videoModal10 iframe").attr("src", 'https://www.youtube.com/embed/NyjQTmsx3oI?autoplay=0&rel=0&showinfo=0');
+            });
+    
+            //11vo video
+            $("#videoModal11").on('show.bs.modal', function (e) {
+                $("#videoModal11 iframe").attr("src", 'https://www.youtube.com/embed/FA3lPbPeFRA?autoplay=1&rel=0&showinfo=0');
+            });
+            
+            $("#videoModal11").on('hidden.bs.modal', function (e) {
+                $("#videoModal11 iframe").attr("src", 'https://www.youtube.com/embed/FA3lPbPeFRA?autoplay=0&rel=0&showinfo=0');
+            });
+    
+            //12vo video
+            $("#videoModal12").on("show.bs.modal", function (e) {
+                $("#videoModal12 iframe").attr("src", 'https://www.youtube.com/embed/aLjSLv3osT0?autoplay=1&rel=0&showinfo=0');
+            });
+    
+            $("#videoModal12").on("hidden.bs.modal", function (e) {
+                $("#videoModal12 iframe").attr("src", 'https://www.youtube.com/embed/aLjSLv3osT0?autoplay=0&rel=0&showinfo=0');
+            });
+    
+            //13vo video
+            $("#videoModal13").on("show.bs.modal", function (e) {
+                $("#videoModal13 iframe").attr("src", 'https://www.youtube.com/embed/slwxy2ZD3s4?autoplay=1&rel=0&showinfo=0');
+            });
+            
+            $("#videoModal13").on("hidden.bs.modal", function (e) {
+                $("#videoModal13 iframe").attr("src", 'https://www.youtube.com/embed/slwxy2ZD3s4?autoplay=0&rel=0&showinfo=0');
+            });
+    
+            //14vo video
+            $("#videoModal14").on("show.bs.modal", function (e) {
+                $("#videoModal14 iframe").attr("src", 'https://www.youtube.com/embed/kp2B3y9WKPQ?autoplay=1&rel=0&showinfo=0');
+            });
+            
+            $("#videoModal14").on("hidden.bs.modal", function (e) {
+                $("#videoModal14 iframe").attr("src", 'https://www.youtube.com/embed/kp2B3y9WKPQ?autoplay=0&rel=0&showinfo=0');
+            });
+    
             });
