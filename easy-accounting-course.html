@@ -31,9 +31,10 @@
                     </div>
                 </div>
             </div>
+ 
                 
                 <div class="page3">
-                    <h3 class="text-center">facil  producto Easy Accounting for Non-Accountants with myAbakus</h3>
+                    <h3 class="text-center">Easy Accounting for Non-Accountants with myAbakus</h3>
                     <p class="col-md-offset-1 col-xs-offset-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad qui quod necessitatibus, ullam, deserunt earum obcaecati quos suscipit. Dolorum laborum quo sapiente provident adipisci ducimus eum iure eius aliquam minima.</p>  
                 </div>
             </div>
@@ -43,8 +44,25 @@
                     <div class="lesson col-md-10 col-md-offset-1">
                         <h2>Lesson 1: Introduction...</h2><hr>
                         
+                        <!-- inicio modal video -->
+                        <div class="modal fade" id="videoModal1" tabindex="-1" role="dialog" aria-hidden="true" data-keyboard="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/f0dSeD3q3Ns " frameborder="0" allowfullscreen=""></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin modal video -->
+                        
                         <div class="img-wrap col-md-2">
-                            <a href="https://www.youtube.com/watch?v=f0dSeD3q3Ns" video-id="f0dSeD3q3Ns">
+                            <a href="https://www.youtube.com/watch?v=f0dSeD3q3Ns" video-id="f0dSeD3q3Ns" data-toggle="modal" data-target="#videoModal1">
                                 <div class="play-img">
                                     <span class="glyphicon glyphicon-play play-btn"></span>
                                 </div>
@@ -61,8 +79,26 @@
                 <div class="lesson col-md-10 col-md-offset-1">
                         <h2>Lesson 2: Invoicing</h2>
                         <hr>
+                        
+                        <!-- inicio modal video -->
+                        <div class="modal fade" id="videoModal2" tabindex="-1" role="dialog" aria-hidden="true" data-keyboard="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4nTPEaEAx_Q " frameborder="0" allowfullscreen=""></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin modal video -->
+                        
                          <div class="img-wrap col-md-2">
-                            <a href="https://www.youtube.com/watch?v=4nTPEaEAx_Q">
+                            <a href="https://www.youtube.com/watch?v=4nTPEaEAx_Q" data-toggle="modal" data-target="#videoModal2">
                                 <div class="play-img play-img-2 ">
                                     <span class="glyphicon glyphicon-play play-btn"></span>
                                 </div>
@@ -290,9 +326,17 @@
             </div>
         </div>
         
+        
+        
         <script src="assets/js/jquery.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+        <script>
+    $("#videoModal1").on('hidden.bs.modal', function (e) { $("#videoModal1 iframe").attr("src", $("#videoModal1 iframe").attr("src"));
+});
+    $("#videoModal2").on('hidden.bs.modal', function (e) { $("#videoModal2 iframe").attr("src", $("#videoModal2 iframe").attr("src"));
+});
+    </script>
     </body>
 </html>

@@ -185,3 +185,27 @@ div.page3
     padding-left: 4px;
 }
 
+
+#videogallery { zoom:1; }
+#videogallery span{ display:block; }
+#videogallery a{
+display:-moz-inline-stack;
+display:inline-block;
+zoom:1;
+*display:inline;
+position:relative;
+vertical-align:top;
+margin:5px;
+text-align:center;
+opacity:0.87;
+}
+#videogallery a img{
+display:block;
+border:none;
+margin:0;
+}
+#videogallery a:hover{
+text-decoration:underline;
+opacity:1;
+}
+#videogallery a#videolb{display:none}
