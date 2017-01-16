@@ -17,6 +17,7 @@ body
     background-color: #f5efe6;
     color: #4c4c4c;
     font-family: 'Quattrocento Sans', Arial, sans-serif;
+    
 }
 
 h1, h2
@@ -51,7 +52,7 @@ p
 .page
 {
     background-color: #ffffff;
-    max-width: 1000px;
+    max-width: 800px;
     margin: 1% auto;
     box-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 5px;
     padding-top: 0%;
@@ -59,6 +60,9 @@ p
     min-height: 10%;
     padding-bottom: 0%;
     
+}
+.six{
+    padding-bottom: 2%;
 }
 #row
 {
@@ -70,7 +74,7 @@ p
     background: -ms-linear-gradient(left, rgba(17,84,146,1) 0%, rgba(17,84,146,1) 17%, rgba(15,68,128,1) 49%, rgba(31,121,223,1) 97%, rgba(32,124,229,1) 100%);
     background: linear-gradient(to right, rgba(17,84,146,1) 0%, rgba(17,84,146,1) 17%, rgba(15,68,128,1) 49%, rgba(31,121,223,1) 97%, rgba(32,124,229,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#115492', endColorstr='#207ce5', GradientType=1 );;
-    max-width: 1000px;
+    max-width: 800px;
     margin: 3% auto;
     box-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 5px;
     padding-top: 3%;
@@ -81,10 +85,10 @@ p
 div.page3
 {
     background-color: #ffffff;
-    max-width:1000px;
-    margin: 3% auto;
+    max-width:800px;
+    margin: 1% auto;
     box-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 5px;
-    padding-top: 1%;
+    padding-top: 0.5%;
     height: auto;
     min-height: 10%;
     padding-bottom: 1px;
