@@ -93,18 +93,22 @@ div.page3
     min-height: 10%;
     padding-bottom: 1px;
 }
+.p1{
+    
+    margin:20px;
+}
 
 .lesson
 {
     
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .img-wrap
 {
     width: 23%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right:1%;
 }
 
 .play-img
@@ -115,8 +119,9 @@ div.page3
     background-size: 300%;
     background-repeat: no-repeat;
     position: relative;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 5px;
+    
 }
 
 .play-img-2
@@ -175,9 +180,9 @@ div.page3
 .play-btn
 {
     position: absolute;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
     color: #71b356;
     background-color: #ffffff;
     top: 25%;
@@ -187,6 +192,12 @@ div.page3
     text-align: center;
     line-height: 1.2;
     padding-left: 4px;
+    margin-left: 4%;
+    margin-top: 7%;
+}
+
+.glyphicon {
+    font-size: 25px;
 }
 
 
